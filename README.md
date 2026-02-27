@@ -3,7 +3,6 @@
 
 - [resume_ru.md](resume/resume_ru.md) — RU
 - [resume_en.md](resume/resume_en.md) — EN
-- [resume_en_print.html](resume/resume_en_print.html) — PDF
 ---
 
 <div align="center">
