@@ -1,6 +1,5 @@
 
-# CV 
-
+# [**CV**](https://top-secret666.github.io/cv/)
 - [resume_ru.md](resume/resume_ru.md) — RU
 - [resume_en.md](resume/resume_en.md) — EN
 ---
