@@ -1,0 +1,20 @@
+# Ignore interview, readme, rep and auxiliary folders
+english/
+readme/
+rep/
+assets/
+tools/
+.drawio-chrome/
+assets/
+tools/
+# Standard ignores
+*.pyc
+__pycache__/
+.env
+.venv/
+.idea/
+.vscode/
+.drawio-chrome/
+node_modules/
+dist/
+build/
