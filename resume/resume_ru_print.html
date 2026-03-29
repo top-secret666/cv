@@ -9,68 +9,101 @@
   <body>
     <div class="page">
       <div class="layout">
-        <main class="main" id="content">
-          <!-- Markdown will be rendered here -->
+        <aside class="sidebar">
+          <div class="photo">
+            <img src="profile.jpg" alt="Дана Стукалова" />
+          </div>
+
+          <div class="block">
+            <div class="label">Контакты</div>
+            <div class="contact">
+              <div>Витебск, Беларусь</div>
+              <div><a href="tel:+375292710932">+375 29 271 09 32</a></div>
+              <div><a href="mailto:chupacabra2.0666@gmail.com">chupacabra2.0666@gmail.com</a></div>
+              <div>
+                <a href="https://github.com/top-secret666">github.com/top-secret666</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="block skills">
+            <div class="label">Навыки</div>
+            <ul>
+              <li><strong>Языки:</strong> Java 17, SQL; базово — TypeScript/JavaScript</li>
+              <li><strong>Backend:</strong> Spring Boot, Spring Security, Spring Data JPA, Spring Kafka, Bean Validation</li>
+              <li><strong>API & Документация:</strong> REST API, OpenAPI/Swagger</li>
+              <li><strong>Безопасность:</strong> Keycloak (SSO, роли, проверка email)</li>
+              <li><strong>Инфраструктура:</strong> Docker, Docker Compose, Liquibase, Maven, Git, GitHub Actions</li>
+              <li><strong>Frontend:</strong> Next.js, React (базово)</li>
+            </ul>
+          </div>
+
+          <div class="block">
+            <div class="label">Языки</div>
+            <div>Английский: B1 (в процессе)</div>
+            <div>Русский/Белорусский: Родной</div>
+          </div>
+
+          <div class="block">
+            <div class="label">Доступность</div>
+            <div>Неоплачиваемая стажировка: Да</div>
+            <div>Полная занятость: Да (офис/гибрид)</div>
+          </div>
+        </aside>
+
+        <main class="main">
+          <h1>Стукалова Дана</h1>
+          <div class="title">Java Backend Developer (Intern / Junior)</div>
+
+          <div class="block">
+            <div class="label">Профиль</div>
+            <div>
+              Студентка 3 курса ВГТУ (ФИТР), направление — Java Backend. Пишу REST‑сервисы на Spring Boot, работаю с PostgreSQL, Kafka и Keycloak.
+              Есть опыт микросервисной архитектуры и Fullstack (Next.js + Spring). Ищу стажировку/Junior‑позицию для развития на реальных задачах.
+            </div>
+          </div>
+
+          <div class="hr"></div>
+
+          <div class="block">
+            <div class="label">Проекты</div>
+
+            <section class="proj">
+              <h3>Food Delivery Platform — микросервисы (user/restaurant/order) + Keycloak + Kafka</h3>
+              <div class="link">GitHub: <a href="https://github.com/top-secret666/rgr">github.com/top-secret666/rgr</a></div>
+              <ul>
+                <li>Система из нескольких микросервисов на Spring Boot 3 (Java 17) с отдельными БД.</li>
+                <li>Инфраструктура через Docker Compose: PostgreSQL, Keycloak, Kafka — быстрый локальный запуск.</li>
+                <li>Интеграция с Keycloak: OAuth2 Resource Server, роли <code>ROLE_USER/ROLE_ADMIN</code>, проверка <code>email_verified</code>.</li>
+                <li>Liquibase для миграций; OpenAPI/Swagger для документации.</li>
+                <li>Frontend на Next.js (TypeScript).</li>
+              </ul>
+            </section>
+
+            <section class="proj">
+              <h3>The Witcher — учебная игра на Java</h3>
+              <div class="link">GitHub: <a href="https://github.com/top-secret666/the-witcher">github.com/top-secret666/the-witcher</a></div>
+              <ul>
+                <li>Реализация игровой логики с упором на ООП: сущности, взаимодействия и правила.</li>
+              </ul>
+            </section>
+          </div>
+
+          <div class="hr"></div>
+
+          <div class="block">
+            <div class="label">Образование</div>
+            <div><strong>Витебский государственный технологический университет (ВГТУ)</strong> | 2023 – 2027 (ожидаемо)</div>
+            <div class="muted">Факультет: Информационные технологии и робототехника (ФИТР)</div>
+            <div class="muted">Специальность: Информационные технологии (программная инженерия)</div>
+          </div>
         </main>
       </div>
     </div>
 
-    <script id="md" type="text/plain">
-# Стукалова Дана Андреевна
-
-Java Backend Developer (Intern / Junior)
-
-Витебск, Беларусь • +375 29 271 09 32 • chupacabra2.0666@gmail.com
-GitHub: https://github.com/top-secret666
-
-## Профиль
-Студентка 3 курса ВГТУ (ФИТР), направление — Java Backend. Пишу REST‑сервисы на Spring Boot, работаю с базами данных (PostgreSQL) и интеграциями (Kafka, Keycloak/OAuth2). Есть опыт с микросервисной архитектурой и Fullstack (Next.js + Spring). Ищу стажировку/Junior‑позицию, чтобы вырасти на реальных задачах и в командной разработке.
-
-## Технические навыки
-- Языки: Java 17, SQL; базово — TypeScript/JavaScript
-- Backend: Spring Boot, Spring Security, Spring Data JPA, Validation, Spring Kafka
-- Безопасность/аутентификация: OAuth2 Resource Server, Keycloak (SSO, роли, email verification)
-- Архитектура: микросервисы, REST API
-- Базы данных: PostgreSQL
-- Инструменты: Git, Docker, Docker Compose, Maven, OpenAPI/Swagger, CI (GitHub Actions)
-- Frontend (базово): Next.js, React, Tailwind CSS
-
-## Проекты
-### Food Delivery Platform — микросервисы (user/restaurant/order) + Keycloak + Kafka
-GitHub: https://github.com/top-secret666/rgr
-- Микросервисная система на Spring Boot 3 (Java 17) с отдельными сервисами и своими БД.
-- Инфраструктура через Docker Compose: PostgreSQL, Keycloak, Kafka; быстрый локальный запуск.
-- Интеграция с Keycloak: OAuth2 Resource Server, роли `ROLE_USER/ROLE_ADMIN`, проверка `email_verified`.
-- Liquibase для миграций; OpenAPI/Swagger для документации.
-- Frontend на Next.js (TypeScript).
-
-### The Witcher — учебная игра на Java
-GitHub: https://github.com/top-secret666/the-witcher
-- Реализация игровой логики с упором на ООП (сущности, взаимодействия, базовые механики).
-
-## Образование
-Витебский государственный технологический университет (ВГТУ), ФИТР
-Специальность: «Информационные технологии», квалификация: инженер‑программист
-Окончание: 2027 (ожидаемо)
-
-## Языки
-- Английский: B1 (в процессе; активно прокачиваю разговорный)
-
-## Дополнительно
-- Готовность к неоплачиваемой стажировке: да
-- Формат: фуллтайм; готова к офису/гибриду
-    </script>
-
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script>
-      (function(){
-        const md = document.getElementById('md').textContent;
-        const html = marked.parse(md);
-        const content = document.getElementById('content');
-        content.innerHTML = html;
-        // Open external links in new tab when printing
-        content.querySelectorAll('a').forEach(a => a.setAttribute('target','_blank'));
-      })();
+      // Ensure external links open in new tab
+      document.querySelectorAll('a').forEach(a => a.setAttribute('target','_blank'));
     </script>
   </body>
 </html>
