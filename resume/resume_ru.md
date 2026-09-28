@@ -1,34 +1,40 @@
 # Стукалова Дана Андреевна
 
-Java Backend Developer (Intern / Junior)
+Junior Unity Developer
 
 Витебск, Беларусь • +375 29 271 09 32 • chupacabra2.0666@gmail.com
 GitHub: https://github.com/top-secret666
 
 ## Профиль
-Студентка 3 курса ВГТУ (ФИТР), направление — Java Backend. Пишу REST‑сервисы на Spring Boot, работаю с базами данных (PostgreSQL) и интеграциями (Kafka, Keycloak/OAuth2). Есть опыт с микросервисной архитектурой и Fullstack (Next.js + Spring). Ищу стажировку/Junior‑позицию, чтобы вырасти на реальных задачах и в командной разработке.
+Junior Unity Developer с сильной базой ООП и опытом проектирования игровой логики. Сейчас делаю **два Unity‑проекта** (публикация портфолио — к концу месяца). Уверенно работаю со скриптами, сущностями и итеративной доработкой механик; ищу стажировку / Junior‑позицию в команде на Unity, чтобы расти как gameplay‑программист.
 
 ## Технические навыки
-- Языки: Java 17, SQL; базово — TypeScript/JavaScript
-- Backend: Spring Boot, Spring Security, Spring Data JPA, Validation, Spring Kafka
-- Безопасность/аутентификация: OAuth2 Resource Server, Keycloak (SSO, роли, email verification)
-- Архитектура: микросервисы, REST API
-- Базы данных: PostgreSQL
-- Инструменты: Git, Docker, Docker Compose, Maven, OpenAPI/Swagger, CI (GitHub Actions)
-- Frontend (базово): Next.js, React, Tailwind CSS
+- **Game Dev:** Unity (в освоении) — сцены, GameObjects, MonoBehaviour, Prefabs, базовая физика и UI
+- **Языки:** C# (основной фокус), Java 17+, SQL (PostgreSQL)
+- **Основы:** ООП (инкапсуляция, наследование, полиморфизм), базы SOLID, аккуратный код
+- **Инструменты:** Git, GitHub, Unity Editor, Rider / Visual Studio, Docker (базово)
+- **Дополнительно:** REST API, Spring Boot (учебные/пет‑проекты), базово TypeScript/JavaScript
 
 ## Проекты
-### Food Delivery Platform — микросервисы (user/restaurant/order) + Keycloak + Kafka
-GitHub: https://github.com/top-secret666/rgr
-- Микросервисная система на Spring Boot 3 (Java 17) с отдельными сервисами и своими БД.
-- Инфраструктура через Docker Compose: PostgreSQL, Keycloak, Kafka; быстрый локальный запуск.
-- Интеграция с Keycloak: OAuth2 Resource Server, роли `ROLE_USER/ROLE_ADMIN`, проверка `email_verified`.
-- Liquibase для миграций; OpenAPI/Swagger для документации.
-- Frontend на Next.js (TypeScript).
 
-### The Witcher — учебная игра на Java
+### Unity‑проекты (×2) | Unity, C# — *в разработке*
+- Делаю **два проекта на Unity**: gameplay‑скрипты, настройка сцен, Prefabs, циклы взаимодействия игрока.
+- Практикую MonoBehaviour, компонентный подход и итеративное тестирование в Editor.
+- Ссылки и playable‑сборки появятся в портфолио **к концу месяца**.
+
+### The Witcher — игровая логика на Java
 GitHub: https://github.com/top-secret666/the-witcher
-- Реализация игровой логики с упором на ООП (сущности, взаимодействия, базовые механики).
+- Модульная система игровой логики на ООП: сущности, взаимодействия, правила, состояние игры.
+- Разделение ответственности и расширяемые механики — напрямую переносится в Unity‑скриптинг.
+
+### Food Delivery Platform — микросервисы + Keycloak + Kafka
+GitHub: https://github.com/top-secret666/rgr
+- Система на Spring Boot 3: REST API, Keycloak (OAuth2), Kafka, Docker Compose, frontend на Next.js.
+- Показывает инженерный подход: модульность, отладка, доведение стека до рабочего состояния.
+
+### Genomic Data Analysis — нейросеть (Python, TensorFlow/Keras)
+- **Награда:** победитель научно‑технической конференции.
+- Совместная разработка модели оценки риска рака по геномным данным; опыт быстрого освоения нового стека.
 
 ## Образование
 Витебский государственный технологический университет (ВГТУ), ФИТР
@@ -36,8 +42,9 @@ GitHub: https://github.com/top-secret666/the-witcher
 Окончание: 2027 (ожидаемо)
 
 ## Языки
-- Английский: B1 (в процессе; активно прокачиваю разговорный)
+- Английский: B1 (в процессе; активно прокачиваю разговорный и технический)
+- Русский / белорусский: родной
 
 ## Дополнительно
 - Готовность к неоплачиваемой стажировке: да
-- Формат: фуллтайм; готова к офису/гибриду
+- Формат: фуллтайм; готова к офису / гибриду

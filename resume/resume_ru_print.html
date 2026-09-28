@@ -29,12 +29,11 @@
           <div class="block skills">
             <div class="label">Навыки</div>
             <ul>
-              <li><strong>Языки:</strong> Java 17, SQL; базово — TypeScript/JavaScript</li>
-              <li><strong>Backend:</strong> Spring Boot, Spring Security, Spring Data JPA, Spring Kafka, Bean Validation</li>
-              <li><strong>API & Документация:</strong> REST API, OpenAPI/Swagger</li>
-              <li><strong>Безопасность:</strong> Keycloak (SSO, роли, проверка email)</li>
-              <li><strong>Инфраструктура:</strong> Docker, Docker Compose, Liquibase, Maven, Git, GitHub Actions</li>
-              <li><strong>Frontend:</strong> Next.js, React (базово)</li>
+              <li><strong>Game Dev:</strong> Unity (в освоении) — сцены, GameObjects, MonoBehaviour, Prefabs, базовая физика и UI</li>
+              <li><strong>Языки:</strong> C# (основной фокус), Java 17+, SQL (PostgreSQL)</li>
+              <li><strong>Основы:</strong> ООП, базы SOLID, аккуратный код</li>
+              <li><strong>Инструменты:</strong> Git, GitHub, Unity Editor, Rider / Visual Studio</li>
+              <li><strong>Дополнительно:</strong> REST API, Spring Boot (пет‑проекты), базово TypeScript/JavaScript</li>
             </ul>
           </div>
 
@@ -53,13 +52,14 @@
 
         <main class="main">
           <h1>Стукалова Дана</h1>
-          <div class="title">Java Backend Developer (Intern / Junior)</div>
+          <div class="title">Junior Unity Developer</div>
 
           <div class="block">
             <div class="label">Профиль</div>
             <div>
-              Студентка 3 курса ВГТУ (ФИТР), направление — Java Backend. Пишу REST‑сервисы на Spring Boot, работаю с PostgreSQL, Kafka и Keycloak.
-              Есть опыт микросервисной архитектуры и Fullstack (Next.js + Spring). Ищу стажировку/Junior‑позицию для развития на реальных задачах.
+              Junior Unity Developer с сильной базой ООП и опытом проектирования игровой логики.
+              Сейчас делаю <strong>два Unity‑проекта</strong> (публикация портфолио — к концу месяца).
+              Ищу стажировку / Junior‑позицию в команде на Unity, чтобы расти как gameplay‑программист.
             </div>
           </div>
 
@@ -69,22 +69,37 @@
             <div class="label">Проекты</div>
 
             <section class="proj">
-              <h3>Food Delivery Platform — микросервисы (user/restaurant/order) + Keycloak + Kafka</h3>
-              <div class="link">GitHub: <a href="https://github.com/top-secret666/rgr">github.com/top-secret666/rgr</a></div>
+              <h3>Unity‑проекты (×2) | Unity, C# — в разработке</h3>
               <ul>
-                <li>Система из нескольких микросервисов на Spring Boot 3 (Java 17) с отдельными БД.</li>
-                <li>Инфраструктура через Docker Compose: PostgreSQL, Keycloak, Kafka — быстрый локальный запуск.</li>
-                <li>Интеграция с Keycloak: OAuth2 Resource Server, роли <code>ROLE_USER/ROLE_ADMIN</code>, проверка <code>email_verified</code>.</li>
-                <li>Liquibase для миграций; OpenAPI/Swagger для документации.</li>
-                <li>Frontend на Next.js (TypeScript).</li>
+                <li>Два проекта на Unity: gameplay‑скрипты, Prefabs, циклы взаимодействия игрока</li>
+                <li>MonoBehaviour, компонентный подход, итеративное тестирование в Editor</li>
+                <li>Ссылки и playable‑сборки появятся в портфолио к концу месяца</li>
               </ul>
             </section>
 
             <section class="proj">
-              <h3>The Witcher — учебная игра на Java</h3>
+              <h3>The Witcher — игровая логика на Java</h3>
               <div class="link">GitHub: <a href="https://github.com/top-secret666/the-witcher">github.com/top-secret666/the-witcher</a></div>
               <ul>
-                <li>Реализация игровой логики с упором на ООП: сущности, взаимодействия и правила.</li>
+                <li>Модульная система игровой логики на ООП: сущности, взаимодействия, правила, состояние игры</li>
+                <li>Расширяемые механики — напрямую переносится в Unity‑скриптинг</li>
+              </ul>
+            </section>
+
+            <section class="proj">
+              <h3>Food Delivery Platform — микросервисы + Keycloak + Kafka</h3>
+              <div class="link">GitHub: <a href="https://github.com/top-secret666/rgr">github.com/top-secret666/rgr</a></div>
+              <ul>
+                <li>Система на Spring Boot: REST API, Keycloak/OAuth2, Kafka, Docker Compose, Next.js</li>
+                <li>Инженерный подход: модульность, отладка, доведение стека до рабочего состояния</li>
+              </ul>
+            </section>
+
+            <section class="proj">
+              <h3>Genomic Data Analysis — нейросеть (Python, TensorFlow/Keras)</h3>
+              <ul>
+                <li><strong>Награда:</strong> победитель научно‑технической конференции</li>
+                <li>Совместная разработка модели оценки риска рака по геномным данным</li>
               </ul>
             </section>
           </div>
@@ -102,7 +117,6 @@
     </div>
 
     <script>
-      // Ensure external links open in new tab
       document.querySelectorAll('a').forEach(a => a.setAttribute('target','_blank'));
     </script>
   </body>

@@ -1,40 +1,40 @@
 # Dana Stukalova
 
-Java Backend Developer (Intern / Junior)
+Junior Unity Developer
 
 Vitebsk, Belarus | +375 29 271 09 32 | stukalovadana20@gmail.com
 GitHub: https://github.com/top-secret666
 
 ## Summary
-Junior Java Developer focused on building backend services with Spring Boot. Hands-on experience with microservices architecture, authentication/authorization via Keycloak (OAuth2 Resource Server), messaging with Kafka, and local infrastructure via Docker Compose. Able to bridge backend and frontend in a Next.js + Spring setup. Strong academic foundation in OOP and backend fundamentals; looking for an internship / junior role to grow in a team.
+Aspiring Junior Unity Developer with a strong OOP foundation and hands-on experience designing game logic in C#/Java-style object-oriented systems. Currently building **two Unity projects** (portfolio release planned by the end of the month). Comfortable with scripting, entity design, and iterative gameplay work; looking for an internship / junior role on a Unity team to grow as a gameplay programmer.
 
 ## Technical Skills
-- Languages: Java 17+, SQL (PostgreSQL), basic TypeScript/JavaScript
-- Backend: Spring Boot 3, Spring Security (OAuth2), Spring Data JPA, Spring Kafka, Bean Validation
-- API & Docs: REST APIs, OpenAPI/Swagger
-- Security: Keycloak (SSO, role-based access, email verification)
-- Infrastructure & Tools: Docker, Docker Compose, Liquibase, Maven, Git, GitHub Actions
-- Frontend (foundational): Next.js, React, Tailwind CSS
+- **Game Dev:** Unity (in progress) — scenes, GameObjects, MonoBehaviour, Prefabs, basic physics & UI
+- **Languages:** C# (primary focus), Java 17+, SQL (PostgreSQL)
+- **Core:** OOP (encapsulation, inheritance, polymorphism), SOLID basics, clean architecture habits
+- **Tools:** Git, GitHub, Unity Editor, Rider / Visual Studio, Docker (foundational)
+- **Additional:** REST APIs, Spring Boot (academic/project background), basic TypeScript/JavaScript
 
 ## Projects
-### Genomic Data Analysis (Neural Network) | Python, TensorFlow/Keras, Research
-*   **Award:** Winner of the Scientific and Technical Conference.
-*   Co-developed a neural network model to determine cancer risk based on the human genome.
-*   Processed and analyzed large genomic datasets to identify key biomarkers.
-*   Currently developing an **AI-driven Antivirus system** (in progress) to detect and mitigate malicious AI-generated threats.
 
-### Food Delivery Platform (Microservices) | Spring Boot, Kafka, Keycloak, Next.js
-GitHub: https://github.com/top-secret666/rgr
-- Built a system of 3 independent microservices (User, Restaurant, Order) with dedicated databases.
-- Integrated Keycloak as an OAuth2 Resource Server for secure identity management and RBAC (`ROLE_USER`/`ROLE_ADMIN`).
-- Implemented asynchronous communication between services using Apache Kafka.
-- Containerized infrastructure with Docker Compose for consistent local development (PostgreSQL, Keycloak, Kafka).
-- Developed a Next.js (TypeScript) frontend consuming backend APIs.
+### Unity Portfolio Projects (×2) | Unity, C# — *In development*
+- Building **two Unity projects** focused on gameplay programming, scene setup, Prefabs, and player interaction loops.
+- Practicing MonoBehaviour scripting, component-based design, and iterative playtesting in the Editor.
+- Portfolio links and playable builds will be published by the **end of the month**.
 
 ### The Witcher: Core Logic Engine | Java 17, OOP
 GitHub: https://github.com/top-secret666/the-witcher
-- Developed a game logic system using core OOP principles (encapsulation, inheritance, polymorphism).
-- Designed modular entities and interactions to manage game state and rules.
+- Designed a modular game logic system using OOP (entities, interactions, rules, game state).
+- Separated concerns so mechanics stay readable and extendable — directly transferable to Unity scripting.
+
+### Food Delivery Platform (Microservices) | Spring Boot, Kafka, Keycloak, Next.js
+GitHub: https://github.com/top-secret666/rgr
+- Built a multi-service system with REST APIs, auth (Keycloak/OAuth2), Kafka messaging, and Docker Compose.
+- Shows engineering discipline: modular design, debugging across services, and shipping a working stack end-to-end.
+
+### Genomic Data Analysis (Neural Network) | Python, TensorFlow/Keras
+- **Award:** Winner of the Scientific and Technical Conference.
+- Co-developed a neural network model to assess cancer risk from genomic data; experience with research, data processing, and rapid learning of new stacks.
 
 ## Education
 Vitebsk State Technological University (VSTU) | 2023 – 2027 (Expected)
