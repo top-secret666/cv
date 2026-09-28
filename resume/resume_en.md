@@ -33,6 +33,7 @@ GitHub: https://github.com/top-secret666/rgr
 - Shows engineering discipline: modular design, debugging across services, and shipping a working stack end-to-end.
 
 ### Genomic Data Analysis (Neural Network) | Python, TensorFlow/Keras
+GitHub: https://github.com/top-secret666/Analiz
 - **Award:** Winner of the Scientific and Technical Conference.
 - Co-developed a neural network model to assess cancer risk from genomic data; experience with research, data processing, and rapid learning of new stacks.
 
