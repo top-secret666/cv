@@ -7,6 +7,15 @@ tools/
 .drawio-chrome/
 assets/
 tools/
+
+# Private drafts / prompts — local only, never push
+/cursor_prompt.md
+/resume_en.md
+/resume_ru.md
+
+# Local PDF preview renders
+resume/_preview/
+
 # Standard ignores
 *.pyc
 __pycache__/

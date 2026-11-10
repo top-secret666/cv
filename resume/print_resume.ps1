@@ -30,6 +30,9 @@ foreach ($lang in 'en', 'ru') {
   Write-Host "Created $out"
 }
 
+$docsDir = Join-Path $repoRoot 'docs'
 Copy-Item (Join-Path $resumeDir 'resume_en.pdf') (Join-Path $repoRoot 'Dana Stukalova.pdf') -Force
-Copy-Item (Join-Path $resumeDir 'resume_print.css') (Join-Path $repoRoot 'docs\resume_print.css') -Force
-Write-Host 'Updated Dana Stukalova.pdf and docs/resume_print.css'
+Copy-Item (Join-Path $resumeDir 'resume_en.pdf') (Join-Path $docsDir 'resume_en.pdf') -Force
+Copy-Item (Join-Path $resumeDir 'resume_ru.pdf') (Join-Path $docsDir 'resume_ru.pdf') -Force
+Copy-Item (Join-Path $resumeDir 'resume_print.css') (Join-Path $docsDir 'resume_print.css') -Force
+Write-Host 'Updated Dana Stukalova.pdf, docs PDFs and docs/resume_print.css'

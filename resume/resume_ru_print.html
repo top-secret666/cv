@@ -4,140 +4,323 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Стукалова Дана — Резюме</title>
+    <meta
+      name="description"
+      content="Стукалова Дана — Junior Java Backend Developer и Unity (C#) Game Developer. Spring Boot, Kafka, Keycloak, Unity 6."
+    />
     <link rel="stylesheet" href="resume_print.css" />
   </head>
   <body>
-    <nav class="lang-switch"><a href="resume_en_print.html" hreflang="en">English version</a></nav>
     <div class="page">
-      <div class="layout">
-        <aside class="sidebar">
-          <div class="photo">
-            <img src="profile.jpg" alt="Дана Стукалова" />
+      <header class="header">
+        <div class="header-text">
+          <h1>Стукалова Дана Андреевна</h1>
+          <p class="role">Junior Java Backend Developer · Unity (C#) Game Developer</p>
+          <p class="meta">Ищу стажировку или позицию Junior · Витебск, Беларусь</p>
+          <div class="contacts">
+            <a href="mailto:stukalovadana20@gmail.com">stukalovadana20@gmail.com</a>
+            <span class="sep">·</span>
+            <a href="tel:+375292710932">+375 29 271 09 32</a>
+            <span class="sep">·</span>
+            <a href="https://github.com/top-secret666">github.com/top-secret666</a>
+            <span class="sep">·</span>
+            <span class="item"
+              >Резюме:
+              <a href="https://top-secret666.github.io/cv/ru.html">RU</a>
+              /
+              <a href="https://top-secret666.github.io/cv/">EN</a></span
+            >
           </div>
+        </div>
+        <div class="photo">
+          <img src="profile.jpg" alt="Дана Стукалова" />
+        </div>
+      </header>
 
-          <div class="block">
-            <div class="label">Контакты</div>
-            <div class="contact">
-              <div>Витебск, Беларусь</div>
-              <div><a href="tel:+375292710932">+375 29 271 09 32</a></div>
-              <div><a href="mailto:chupacabra2.0666@gmail.com">chupacabra2.0666@gmail.com</a></div>
-              <div><a href="https://github.com/top-secret666">github.com/top-secret666</a></div>
-            </div>
+      <section class="section">
+        <h2 class="section-title">О себе</h2>
+        <p class="summary">
+          Студентка Витебского государственного технологического университета, специальность
+          «Информационные технологии», направление — Java Backend. Разрабатываю REST-сервисы на
+          Spring Boot 3: микросервисы, защита через JWT / OAuth2 и Keycloak, обмен сообщениями через
+          Kafka, PostgreSQL с миграциями Liquibase, окружение на Docker Compose. Довела до рабочего
+          состояния full-stack платформу доставки еды с живым демо. Кроме того, создаю игры: четыре
+          проекта на Unity 6 (URP, C#) и игра на Java с публичным релизом под Windows. Ищу
+          стажировку или Junior-позицию, чтобы расти на реальных задачах в команде.
+        </p>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Навыки</h2>
+        <ul class="skills-list">
+          <li>
+            <strong>Backend:</strong> Java 17, Spring Boot 3, Spring Web, Spring Security (OAuth2
+            Resource Server, JWT), Spring Data JPA, Bean Validation, Spring Kafka, Resilience4j,
+            MapStruct, Lombok
+          </li>
+          <li>
+            <strong>API и архитектура:</strong> REST, микросервисы, OpenAPI / Swagger, Spring Boot
+            Actuator, ООП, основы SOLID
+          </li>
+          <li>
+            <strong>Безопасность:</strong> Keycloak (SSO, роли, подтверждение email), вход через
+            Google, ролевая модель доступа
+          </li>
+          <li><strong>Базы данных:</strong> PostgreSQL, MySQL, H2, SQL, Liquibase</li>
+          <li>
+            <strong>Инструменты и DevOps:</strong> Git, GitHub, GitHub Actions, Maven, Docker,
+            Docker Compose, Testcontainers
+          </li>
+          <li>
+            <strong>Frontend (базово):</strong> React, Redux Toolkit, Next.js, TypeScript /
+            JavaScript, Tailwind CSS
+          </li>
+          <li>
+            <strong>Разработка игр:</strong> Unity 6, URP, C#, Prefabs и prefab variants,
+            ScriptableObjects, New Input System, ProBuilder, Splines, постобработка, инструменты
+            редактора
+          </li>
+          <li><strong>Также работала с:</strong> C++ (SFML), Python (TensorFlow / Keras)</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Проекты</h2>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>Aroma — платформа доставки еды</h3>
+            <span class="stack"
+              >Java 17 · Spring Boot 3.5 · Spring Security · Kafka · Keycloak · PostgreSQL ·
+              Liquibase · Docker Compose · React</span
+            >
           </div>
-
-          <div class="block skills">
-            <div class="label">Навыки</div>
-            <ul>
-              <li><strong>Game Dev:</strong> Unity 6, URP, Prefabs и prefab variants, ScriptableObjects, New Input System, ProBuilder, Splines, постобработка</li>
-              <li><strong>Языки:</strong> C# (основной фокус), Java 17+, SQL (PostgreSQL)</li>
-              <li><strong>Основы:</strong> ООП, основы SOLID, чистая архитектура</li>
-              <li><strong>Инструменты:</strong> Git, GitHub, Unity Editor, Rider / Visual Studio, Docker (базово)</li>
-              <li><strong>Дополнительно:</strong> REST API, Spring Boot, базово TypeScript/JavaScript</li>
-            </ul>
+          <div class="project-links">
+            <a href="https://github.com/top-secret666/food">github.com/top-secret666/food</a>
+            <span class="sep">·</span>
+            <a href="https://github.com/top-secret666/aroma-food"
+              >github.com/top-secret666/aroma-food</a
+            >
+            <span class="sep">·</span>
+            <a href="https://aromafood.vercel.app">aromafood.vercel.app</a>
           </div>
+          <ul>
+            <li>
+              Разработала три микросервиса на Spring Boot (пользователи, рестораны, заказы), у
+              каждого своя база данных, миграции Liquibase и документация Swagger; заказ проходит
+              полный жизненный цикл статусов от PENDING до COMPLETED.
+            </li>
+            <li>
+              Реализовала аутентификацию через JWT, вход через Google и Keycloak (OAuth2 Resource
+              Server) с ролями USER / MANAGER / ADMIN; сервисы взаимодействуют по HTTP и через
+              Apache Kafka.
+            </li>
+            <li>
+              Настроила два режима запуска — лёгкий локальный (H2 + локальный JWT) и полный стек на
+              Docker Compose (PostgreSQL, Kafka, Keycloak, Mailhog) — а также интеграционные тесты
+              на Testcontainers; клиент на React + Redux развёрнут на Vercel.
+            </li>
+          </ul>
+        </article>
 
-          <div class="block">
-            <div class="label">Языки</div>
-            <div>Английский: B1 (активно развиваю)</div>
-            <div>Русский / белорусский: родной</div>
+        <article class="project">
+          <div class="project-head">
+            <h3>Tournament Arena (учебный проект)</h3>
+            <span class="stack"
+              >Java 17 · Spring Boot 3.5 · Spring Security · JPA · JWT · MySQL · Next.js 15 ·
+              TypeScript</span
+            >
           </div>
-
-          <div class="block">
-            <div class="label">Доступность</div>
-            <div>Неоплачиваемая стажировка:&nbsp;да</div>
-            <div>Полная занятость: да (офис / гибрид)</div>
+          <div class="project-links">
+            <a href="https://github.com/top-secret666/Game_tournament_management"
+              >github.com/top-secret666/Game_tournament_management</a
+            >
           </div>
-        </aside>
+          <ul>
+            <li>
+              Full-stack платформа для управления турнирами по League of Legends: REST API с
+              JWT-аутентификацией, схема MySQL с тестовыми данными и интерфейс на Next.js 15 /
+              React 19.
+            </li>
+            <li>
+              Страницы турниров и игроков с поиском, фильтром по статусу, статистикой и формой
+              создания турнира с выбором команд.
+            </li>
+          </ul>
+        </article>
+      </section>
 
-        <main class="main">
-          <h1>Стукалова Дана</h1>
-          <div class="title">Junior Unity Developer</div>
+      <section class="section">
+        <h2 class="section-title">Разработка игр (Unity 6, URP, C#)</h2>
 
-          <div class="block">
-            <div class="label">Профиль</div>
-            <div>
-              Junior Unity Developer с сильной базой ООП и опытом проектирования игровой логики на C# и Java. Сделала <strong>четыре портфолио‑проекта на Unity&nbsp;6 (URP)</strong>, все опубликованы на GitHub со скриншотами и документацией. Ищу стажировку или Junior‑позицию в команде на Unity, чтобы расти как gameplay‑программист.
-            </div>
+        <article class="project">
+          <div class="project-head">
+            <h3>
+              <a href="https://github.com/top-secret666/WonderDoor">WonderDoor</a>
+            </h3>
+            <span class="stack">Unity 6, URP, C#, ProBuilder, Splines</span>
           </div>
-
-          <div class="hr"></div>
-
-          <div class="block">
-            <div class="label">Разработка игр (Unity)</div>
-
-            <section class="proj compact">
-              <h3>WonderDoor | Unity 6, URP, C#</h3>
-              <div class="link">GitHub: <a href="https://github.com/top-secret666/WonderDoor">github.com/top-secret666/WonderDoor</a></div>
-              <ul>
-                <li>Сюрреалистичные комнаты за волшебными дверями (вид от первого лица): коридор цветных дверей, солнечный луг, круглый зал с лампами</li>
-                <li>Иерархия префабов и prefab variants, геометрия на ProBuilder и Splines, интерактивные двери, процедурный луг</li>
-              </ul>
-            </section>
-            <section class="proj compact">
-              <h3>Backrooms Lab: Level 0 | Unity 6, URP, C#</h3>
-              <div class="link">GitHub: <a href="https://github.com/top-secret666/backrooms">github.com/top-secret666/backrooms</a></div>
-              <ul>
-                <li>Атмосферный Level&nbsp;0 от первого лица: мерцающие лампы и фонарик</li>
-                <li>FPS‑контроллер на Rigidbody с настройками в ScriptableObjects, система шума на событиях, New Input System</li>
-              </ul>
-            </section>
-            <section class="proj compact">
-              <h3>The Witcher: Moonlit Road | Unity 6, URP, C#, пиксель‑арт</h3>
-              <div class="link">GitHub: <a href="https://github.com/top-secret666/witcher">github.com/top-secret666/witcher</a></div>
-              <ul>
-                <li>Пиксель‑арт демо в жанре dark fantasy: лесная дорога с параллаксом постепенно открывает замок под луной</li>
-                <li>Многослойный параллакс, дорога с проекцией на CPU, свой ретро‑эффект для URP</li>
-              </ul>
-            </section>
-            <section class="proj compact">
-              <h3>Witcher 02: Night Ride | Unity 6, URP, C#, пиксель‑арт</h3>
-              <div class="link">GitHub: <a href="https://github.com/top-secret666/witcher-02">github.com/top-secret666/witcher-02</a></div>
-              <ul>
-                <li>Ночная поездка верхом в пиксель‑арте: туман, сосны у дороги, замок</li>
-                <li>Многослойный параллакс, перспективная дорога, аллюры (шаг, кентер, галоп) с движением камеры</li>
-              </ul>
-            </section>
+          <div class="project-links">
+            <a href="https://github.com/top-secret666/WonderDoor"
+              >github.com/top-secret666/WonderDoor</a
+            >
           </div>
+          <ul>
+            <li>
+              Сюрреалистичная прогулка от первого лица: огромные коридоры с цветными дверями,
+              круглый зал и комната-луг, залитая солнцем.
+            </li>
+            <li>
+              Иерархия комнат на префабах и prefab variants, интерактивные двери вокруг петель,
+              процедурно генерируемый луг, солнечный свет из окон с ограничением по слоям
+              рендеринга, постобработка из кода.
+            </li>
+          </ul>
+        </article>
 
-          <div class="hr"></div>
-
-          <div class="block">
-            <div class="label">Другие проекты</div>
-
-            <section class="proj compact">
-              <h3>The Witcher: Core Logic Engine | Java 17, ООП</h3>
-              <div class="link">GitHub: <a href="https://github.com/top-secret666/the-witcher">github.com/top-secret666/the-witcher</a></div>
-              <ul>
-                <li>Модульная игровая логика на ООП: сущности, взаимодействия, правила, состояние игры</li>
-              </ul>
-            </section>
-            <section class="proj compact">
-              <h3>Food Delivery Platform | Spring Boot, Kafka, Keycloak, Next.js</h3>
-              <div class="link">GitHub: <a href="https://github.com/top-secret666/food">github.com/top-secret666/food</a></div>
-              <ul>
-                <li>Микросервисы: REST API, Keycloak / OAuth2, Kafka, Docker Compose</li>
-              </ul>
-            </section>
-            <section class="proj compact">
-              <h3>Genomic Data Analysis (нейросеть) | Python, TensorFlow/Keras</h3>
-              <div class="link">GitHub: <a href="https://github.com/top-secret666/Analiz">github.com/top-secret666/Analiz</a></div>
-              <ul>
-                <li><strong>Награда:</strong> победитель научно‑технической конференции</li>
-                <li>Совместная разработка нейросети для оценки риска рака по геномным данным</li>
-              </ul>
-            </section>
+        <article class="project">
+          <div class="project-head">
+            <h3>
+              <a href="https://github.com/top-secret666/backrooms">Backrooms Lab: Level 0</a>
+            </h3>
+            <span class="stack">Unity 6, URP, C#, New Input System</span>
           </div>
-
-          <div class="hr"></div>
-
-          <div class="block">
-            <div class="label">Образование</div>
-            <div><strong>Витебский государственный технологический университет (ВГТУ)</strong> | 2023 – 2027 (ожидаемо)</div>
-            <div class="muted">Факультет информационных технологий и робототехники (ФИТР)</div>
-            <div class="muted">Специальность: «Информационные технологии», квалификация: инженер‑программист</div>
+          <div class="project-links">
+            <a href="https://github.com/top-secret666/backrooms"
+              >github.com/top-secret666/backrooms</a
+            >
           </div>
-        </main>
-      </div>
+          <ul>
+            <li>
+              Атмосферный фрагмент Backrooms Level 0 от первого лица: мерцающие лампы дневного
+              света и сломанный фонарик.
+            </li>
+            <li>
+              FPS-контроллер на Rigidbody с настройками в ScriptableObjects, система шума на
+              событиях (Observer), независимое мерцание ламп через MaterialPropertyBlock,
+              инструменты редактора для сборки уровня.
+            </li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>
+              <a href="https://github.com/top-secret666/witcher">The Witcher: Moonlit Road</a>
+            </h3>
+            <span class="stack">Unity 6, URP, C#, пиксель-арт</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/top-secret666/witcher">github.com/top-secret666/witcher</a>
+          </div>
+          <ul>
+            <li>
+              Пиксель-арт в жанре dark fantasy: прогулка по лесной дороге, которая постепенно
+              открывает вид на замок под луной.
+            </li>
+            <li>
+              Параллакс-риг, управляемый ходьбой, перспективная дорога с проекцией на CPU,
+              собственный ScriptableRendererFeature для URP (ретро-эффект), пресеты атмосферы в
+              ScriptableObjects.
+            </li>
+          </ul>
+        </article>
+
+        <article class="project">
+          <div class="project-head">
+            <h3>
+              <a href="https://github.com/top-secret666/witcher-02">Witcher 02: Night Ride</a>
+            </h3>
+            <span class="stack">Unity 6, URP, C#, пиксель-арт</span>
+          </div>
+          <div class="project-links">
+            <a href="https://github.com/top-secret666/witcher-02"
+              >github.com/top-secret666/witcher-02</a
+            >
+          </div>
+          <ul>
+            <li>
+              Ночная поездка верхом от первого лица: туман, придорожные сосны и замок впереди.
+            </li>
+            <li>
+              Многослойный параллакс, перспективная дорога с поворотами, аллюры (шаг, кентер,
+              галоп) с движением камеры, постобработка URP; сцена адаптируется под любое
+              соотношение сторон.
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Другие проекты</h2>
+        <ul class="other-list">
+          <li>
+            <strong
+              ><a href="https://github.com/top-secret666/the-witcher"
+                >The Witcher: Chapter 1</a
+              ></strong
+            >
+            (Java 17, Swing). Хоррор-визуальная новелла в пиксель-арте на собственном небольшом
+            движке с архитектурой MVP (View → Presenter → Director → Domain). Сборка под Windows со
+            встроенной средой Java
+            (<a href="https://github.com/top-secret666/the-witcher/releases">v1.1.0</a>).
+          </li>
+          <li>
+            <strong
+              ><a href="https://github.com/top-secret666/Analiz">Анализ геномных данных</a></strong
+            >
+            (Python, TensorFlow / Keras). <strong>Победитель научно-технической
+            конференции.</strong> В соавторстве разработала 1D-CNN, которая классифицирует
+            патогенные мутации гена RB1 по данным ClinVar.
+          </li>
+          <li>
+            <strong
+              ><a href="https://github.com/top-secret666/fireboy-watergirl-multiplayer"
+                >Fireboy &amp; Watergirl Multiplayer</a
+              ></strong
+            >
+            (C++17, SFML, TCP). Курсовая работа: кооперативный платформер с авторитетным сервером и
+            собственным сетевым протоколом.
+          </li>
+          <li>
+            <strong
+              ><a href="https://github.com/top-secret666/promptlock-defender"
+                >PromptLock Defender</a
+              ></strong
+            >
+            (Python). Конференционный проект: антивирус против программ-вымогателей на основе ИИ,
+            семь модулей обнаружения (сигнатуры, AST-анализ, энтропия, ML-классификатор, мониторинг
+            процессов).
+          </li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Образование</h2>
+        <p class="edu-title">
+          Витебский государственный технологический университет (ВГТУ), 2023 – 2027 (ожидаемо)
+        </p>
+        <p class="edu-meta">
+          Факультет информационных технологий и робототехники · Специальность «Информационные
+          технологии» · Квалификация: инженер-программист
+        </p>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Языки</h2>
+        <ul class="lang-list">
+          <li>
+            <strong>Английский:</strong> B1 (средний), активно развиваю разговорный и технический
+            английский
+          </li>
+          <li><strong>Русский, белорусский:</strong> родные</li>
+        </ul>
+      </section>
+
+      <section class="section">
+        <h2 class="section-title">Готовность к работе</h2>
+        <p class="avail">Неоплачиваемая стажировка: да · Полная занятость: да · Офис или гибрид</p>
+      </section>
     </div>
   </body>
 </html>
