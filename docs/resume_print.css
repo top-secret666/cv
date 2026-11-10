@@ -18,15 +18,15 @@ body {
   color: var(--text);
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, "Noto Sans", "Liberation Sans",
     sans-serif;
-  font-size: 10.6pt;
-  line-height: 1.36;
+  font-size: 9.4pt;
+  line-height: 1.27;
   background: #fff;
 }
 
 .page {
   max-width: 210mm;
   margin: 0 auto;
-  padding: 12mm;
+  padding: 9mm 11mm;
 }
 
 .layout {
@@ -45,8 +45,8 @@ body {
 }
 
 .photo {
-  width: 48mm;
-  height: 48mm;
+  width: 40mm;
+  height: 40mm;
   border-radius: 12mm;
   overflow: hidden;
   border: 1px solid var(--line);
@@ -61,7 +61,7 @@ body {
 }
 
 h1 {
-  font-size: 19pt;
+  font-size: 18pt;
   line-height: 1.15;
   margin: 0 0 2mm 0;
   letter-spacing: 0.2px;
@@ -69,12 +69,12 @@ h1 {
 
 .title {
   font-size: 12pt;
-  margin: 0 0 5mm 0;
+  margin: 0 0 3.5mm 0;
   color: var(--muted);
 }
 
 .block {
-  margin-bottom: 4.5mm;
+  margin-bottom: 3.5mm;
 }
 
 .label {
@@ -82,7 +82,7 @@ h1 {
   font-size: 10.5pt;
   letter-spacing: 0.6px;
   text-transform: uppercase;
-  margin: 0 0 2.5mm 0;
+  margin: 0 0 1.8mm 0;
 }
 
 .muted {
@@ -152,10 +152,43 @@ li {
   text-decoration: underline;
 }
 
+.proj.compact {
+  margin-bottom: 1.9mm;
+}
+
+.proj.compact h3 {
+  font-size: 10.6pt;
+}
+
+.proj.compact .link {
+  margin-top: 0.4mm;
+  font-size: 9.6pt;
+}
+
+.proj.compact ul {
+  margin-top: 0.8mm;
+}
+
+.proj.compact li {
+  margin: 0.4mm 0;
+}
+
+.lang-switch {
+  max-width: 210mm;
+  margin: 0 auto;
+  padding: 4mm 12mm 0;
+  text-align: right;
+  font-size: 9.5pt;
+}
+
+.lang-switch a {
+  color: var(--muted);
+}
+
 .hr {
   height: 1px;
   background: var(--line);
-  margin: 3.5mm 0;
+  margin: 2mm 0;
 }
 
 @page {
@@ -169,7 +202,16 @@ li {
     print-color-adjust: exact;
   }
 
+  html,
+  body {
+    height: auto;
+  }
+
+  .lang-switch {
+    display: none;
+  }
+
   .page {
-    padding: 12mm;
+    padding: 9mm 11mm;
   }
 }
