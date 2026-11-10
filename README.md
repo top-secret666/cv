@@ -1,6 +1,6 @@
 # [**CV**](https://top-secret666.github.io/cv/)
 
-**Dana Stukalova — Junior Java Backend Developer · Unity (C#) Game Developer**
+**Dana Stukalova — Junior Unity Developer** · Ready to work in Minsk
 
 | | EN | RU |
 | --- | --- | --- |

@@ -6,7 +6,7 @@
     <title>Стукалова Дана — Резюме</title>
     <meta
       name="description"
-      content="Стукалова Дана — Junior Java Backend Developer и Unity (C#) Game Developer. Spring Boot, Kafka, Keycloak, Unity 6."
+      content="Стукалова Дана — Junior Unity Developer. Unity 6, URP, C#. Готова работать в Минске."
     />
     <link rel="stylesheet" href="resume_print.css" />
   </head>
@@ -15,8 +15,10 @@
       <header class="header">
         <div class="header-text">
           <h1>Стукалова Дана Андреевна</h1>
-          <p class="role">Junior Java Backend Developer · Unity (C#) Game Developer</p>
-          <p class="meta">Ищу стажировку или позицию Junior · Витебск, Беларусь</p>
+          <p class="role">Junior Unity Developer</p>
+          <p class="meta">
+            Ищу стажировку или позицию Junior · Витебск, Беларусь · Готова работать в Минске
+          </p>
           <div class="contacts">
             <a href="mailto:stukalovadana20@gmail.com">stukalovadana20@gmail.com</a>
             <span class="sep">·</span>
@@ -41,12 +43,12 @@
         <h2 class="section-title">О себе</h2>
         <p class="summary">
           Студентка Витебского государственного технологического университета, специальность
-          «Информационные технологии», направление — Java Backend. Разрабатываю REST-сервисы на
-          Spring Boot 3: микросервисы, защита через JWT / OAuth2 и Keycloak, обмен сообщениями через
-          Kafka, PostgreSQL с миграциями Liquibase, окружение на Docker Compose. Довела до рабочего
-          состояния full-stack платформу доставки еды с живым демо. Кроме того, создаю игры: четыре
-          проекта на Unity 6 (URP, C#) и игра на Java с публичным релизом под Windows. Ищу
-          стажировку или Junior-позицию, чтобы расти на реальных задачах в команде.
+          «Информационные технологии», направление — разработка игр на Unity. Создаю игровые системы
+          на C# в Unity 6 (URP): четыре портфолио-проекта — прогулки от первого лица, атмосферное
+          освещение, параллакс и собственные renderer features; всё опубликовано на GitHub с
+          документацией. Также выпустила игру на Java с публичным релизом под Windows. Ищу
+          стажировку или Junior Unity-позицию в Минске, чтобы расти как gameplay-программист в
+          команде.
         </p>
       </section>
 
@@ -54,100 +56,24 @@
         <h2 class="section-title">Навыки</h2>
         <ul class="skills-list">
           <li>
-            <strong>Backend:</strong> Java 17, Spring Boot 3, Spring Web, Spring Security (OAuth2
-            Resource Server, JWT), Spring Data JPA, Bean Validation, Spring Kafka, Resilience4j,
-            MapStruct, Lombok
-          </li>
-          <li>
-            <strong>API и архитектура:</strong> REST, микросервисы, OpenAPI / Swagger, Spring Boot
-            Actuator, ООП, основы SOLID
-          </li>
-          <li>
-            <strong>Безопасность:</strong> Keycloak (SSO, роли, подтверждение email), вход через
-            Google, ролевая модель доступа
-          </li>
-          <li><strong>Базы данных:</strong> PostgreSQL, MySQL, H2, SQL, Liquibase</li>
-          <li>
-            <strong>Инструменты и DevOps:</strong> Git, GitHub, GitHub Actions, Maven, Docker,
-            Docker Compose, Testcontainers
-          </li>
-          <li>
-            <strong>Frontend (базово):</strong> React, Redux Toolkit, Next.js, TypeScript /
-            JavaScript, Tailwind CSS
-          </li>
-          <li>
             <strong>Разработка игр:</strong> Unity 6, URP, C#, Prefabs и prefab variants,
             ScriptableObjects, New Input System, ProBuilder, Splines, постобработка, инструменты
-            редактора
+            редактора, базовая физика и UI
           </li>
-          <li><strong>Также работала с:</strong> C++ (SFML), Python (TensorFlow / Keras)</li>
+          <li><strong>Языки:</strong> C# (основной фокус), Java 17+, SQL (PostgreSQL)</li>
+          <li>
+            <strong>Основы:</strong> ООП (инкапсуляция, наследование, полиморфизм), основы SOLID,
+            привычки чистой архитектуры
+          </li>
+          <li>
+            <strong>Инструменты:</strong> Git, GitHub, Unity Editor, Rider / Visual Studio, Docker
+            (базово)
+          </li>
+          <li>
+            <strong>Также работала с:</strong> C++ (SFML), Python (TensorFlow / Keras), REST API /
+            Spring Boot (личные проекты), базово TypeScript / JavaScript
+          </li>
         </ul>
-      </section>
-
-      <section class="section">
-        <h2 class="section-title">Проекты</h2>
-
-        <article class="project">
-          <div class="project-head">
-            <h3>Aroma — платформа доставки еды</h3>
-            <span class="stack"
-              >Java 17 · Spring Boot 3.5 · Spring Security · Kafka · Keycloak · PostgreSQL ·
-              Liquibase · Docker Compose · React</span
-            >
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/top-secret666/food">github.com/top-secret666/food</a>
-            <span class="sep">·</span>
-            <a href="https://github.com/top-secret666/aroma-food"
-              >github.com/top-secret666/aroma-food</a
-            >
-            <span class="sep">·</span>
-            <a href="https://aromafood.vercel.app">aromafood.vercel.app</a>
-          </div>
-          <ul>
-            <li>
-              Разработала три микросервиса на Spring Boot (пользователи, рестораны, заказы), у
-              каждого своя база данных, миграции Liquibase и документация Swagger; заказ проходит
-              полный жизненный цикл статусов от PENDING до COMPLETED.
-            </li>
-            <li>
-              Реализовала аутентификацию через JWT, вход через Google и Keycloak (OAuth2 Resource
-              Server) с ролями USER / MANAGER / ADMIN; сервисы взаимодействуют по HTTP и через
-              Apache Kafka.
-            </li>
-            <li>
-              Настроила два режима запуска — лёгкий локальный (H2 + локальный JWT) и полный стек на
-              Docker Compose (PostgreSQL, Kafka, Keycloak, Mailhog) — а также интеграционные тесты
-              на Testcontainers; клиент на React + Redux развёрнут на Vercel.
-            </li>
-          </ul>
-        </article>
-
-        <article class="project">
-          <div class="project-head">
-            <h3>Tournament Arena (учебный проект)</h3>
-            <span class="stack"
-              >Java 17 · Spring Boot 3.5 · Spring Security · JPA · JWT · MySQL · Next.js 15 ·
-              TypeScript</span
-            >
-          </div>
-          <div class="project-links">
-            <a href="https://github.com/top-secret666/Game_tournament_management"
-              >github.com/top-secret666/Game_tournament_management</a
-            >
-          </div>
-          <ul>
-            <li>
-              Full-stack платформа для управления турнирами по League of Legends: REST API с
-              JWT-аутентификацией, схема MySQL с тестовыми данными и интерфейс на Next.js 15 /
-              React 19.
-            </li>
-            <li>
-              Страницы турниров и игроков с поиском, фильтром по статусу, статистикой и формой
-              создания турнира с выбором команд.
-            </li>
-          </ul>
-        </article>
       </section>
 
       <section class="section">
@@ -261,9 +187,27 @@
               ></strong
             >
             (Java 17, Swing). Хоррор-визуальная новелла в пиксель-арте на собственном небольшом
-            движке с архитектурой MVP (View → Presenter → Director → Domain). Сборка под Windows со
-            встроенной средой Java
+            движке с архитектурой MVP. Сборка под Windows со встроенной средой Java
             (<a href="https://github.com/top-secret666/the-witcher/releases">v1.1.0</a>).
+          </li>
+          <li>
+            <strong
+              ><a href="https://github.com/top-secret666/food"
+                >Aroma — платформа доставки еды</a
+              ></strong
+            >
+            (Java 17, Spring Boot 3, Kafka, Keycloak, PostgreSQL, React). Full-stack микросервисное
+            приложение с JWT / Google / Keycloak и
+            <a href="https://aromafood.vercel.app">живым демо</a>.
+          </li>
+          <li>
+            <strong
+              ><a href="https://github.com/top-secret666/Game_tournament_management"
+                >Tournament Arena</a
+              ></strong
+            >
+            (Java 17, Spring Boot, JWT, MySQL, Next.js 15). Учебный проект: управление турнирами по
+            League of Legends, REST API и интерфейс на React.
           </li>
           <li>
             <strong
@@ -289,8 +233,7 @@
               ></strong
             >
             (Python). Конференционный проект: антивирус против программ-вымогателей на основе ИИ,
-            семь модулей обнаружения (сигнатуры, AST-анализ, энтропия, ML-классификатор, мониторинг
-            процессов).
+            семь модулей обнаружения.
           </li>
         </ul>
       </section>
@@ -319,7 +262,10 @@
 
       <section class="section">
         <h2 class="section-title">Готовность к работе</h2>
-        <p class="avail">Неоплачиваемая стажировка: да · Полная занятость: да · Офис или гибрид</p>
+        <p class="avail">
+          Неоплачиваемая стажировка: да · Полная занятость: да · Офис или гибрид · Готова работать в
+          Минске
+        </p>
       </section>
     </div>
   </body>

@@ -1,7 +1,7 @@
 # Стукалова Дана Андреевна
 
-**Junior Java Backend Developer · Unity (C#) Game Developer**
-Ищу стажировку или позицию Junior · Витебск, Беларусь
+**Junior Unity Developer**
+Ищу стажировку или позицию Junior · Витебск, Беларусь · Готова работать в Минске
 
 📧 [stukalovadana20@gmail.com](mailto:stukalovadana20@gmail.com) · 📞 [+375 29 271 09 32](tel:+375292710932) · 💻 [github.com/top-secret666](https://github.com/top-secret666) · 🌐 Резюме: [RU](https://top-secret666.github.io/cv/ru.html) / [EN](https://top-secret666.github.io/cv/)
 
@@ -9,34 +9,15 @@
 
 ## О себе
 
-Студентка Витебского государственного технологического университета, специальность «Информационные технологии», направление — Java Backend. Разрабатываю REST-сервисы на Spring Boot 3: микросервисы, защита через JWT / OAuth2 и Keycloak, обмен сообщениями через Kafka, PostgreSQL с миграциями Liquibase, окружение на Docker Compose. Довела до рабочего состояния full-stack платформу доставки еды с живым демо. Кроме того, создаю игры: четыре проекта на Unity 6 (URP, C#) и игра на Java с публичным релизом под Windows. Ищу стажировку или Junior-позицию, чтобы расти на реальных задачах в команде.
+Студентка Витебского государственного технологического университета, специальность «Информационные технологии», направление — разработка игр на Unity. Создаю игровые системы на C# в Unity 6 (URP): четыре портфолио-проекта — прогулки от первого лица, атмосферное освещение, параллакс и собственные renderer features; всё опубликовано на GitHub с документацией. Также выпустила игру на Java с публичным релизом под Windows. Ищу стажировку или Junior Unity-позицию в Минске, чтобы расти как gameplay-программист в команде.
 
 ## Навыки
 
-- **Backend:** Java 17, Spring Boot 3, Spring Web, Spring Security (OAuth2 Resource Server, JWT), Spring Data JPA, Bean Validation, Spring Kafka, Resilience4j, MapStruct, Lombok
-- **API и архитектура:** REST, микросервисы, OpenAPI / Swagger, Spring Boot Actuator, ООП, основы SOLID
-- **Безопасность:** Keycloak (SSO, роли, подтверждение email), вход через Google, ролевая модель доступа
-- **Базы данных:** PostgreSQL, MySQL, H2, SQL, Liquibase
-- **Инструменты и DevOps:** Git, GitHub, GitHub Actions, Maven, Docker, Docker Compose, Testcontainers
-- **Frontend (базово):** React, Redux Toolkit, Next.js, TypeScript / JavaScript, Tailwind CSS
-- **Разработка игр:** Unity 6, URP, C#, Prefabs и prefab variants, ScriptableObjects, New Input System, ProBuilder, Splines, постобработка, инструменты редактора
-- **Также работала с:** C++ (SFML), Python (TensorFlow / Keras)
-
-## Backend-проекты
-
-### Aroma — платформа доставки еды
-**Java 17 · Spring Boot 3.5 · Spring Security · Kafka · Keycloak · PostgreSQL · Liquibase · Docker Compose · React**
-[Backend](https://github.com/top-secret666/food) · [Frontend](https://github.com/top-secret666/aroma-food) · [Демо](https://aromafood.vercel.app)
-- Разработала три микросервиса на Spring Boot (пользователи, рестораны, заказы), у каждого своя база данных, миграции Liquibase и документация Swagger; заказ проходит полный жизненный цикл статусов от `PENDING` до `COMPLETED`.
-- Реализовала аутентификацию через JWT, вход через Google и Keycloak (OAuth2 Resource Server) с ролями `USER` / `MANAGER` / `ADMIN`; сервисы взаимодействуют по HTTP и через Apache Kafka.
-- Настроила два режима запуска: лёгкий локальный (H2 + локальный JWT) и полный стек на Docker Compose (PostgreSQL, Kafka, Keycloak, Mailhog), а также интеграционные тесты на Testcontainers.
-- Сделала клиент на React + Redux для покупателей, менеджеров и администраторов, развернула его на Vercel.
-
-### Tournament Arena (учебный проект)
-**Java 17 · Spring Boot 3.5 · Spring Security · JPA · JWT · MySQL · Next.js 15 · TypeScript**
-[GitHub](https://github.com/top-secret666/Game_tournament_management)
-- Full-stack платформа для управления турнирами по League of Legends: REST API с JWT-аутентификацией, схема MySQL с тестовыми данными и интерфейс на Next.js 15 / React 19.
-- Страницы турниров и игроков с поиском, фильтром по статусу, статистикой и формой создания турнира с выбором команд.
+- **Разработка игр:** Unity 6, URP, C#, Prefabs и prefab variants, ScriptableObjects, New Input System, ProBuilder, Splines, постобработка, инструменты редактора, базовая физика и UI
+- **Языки:** C# (основной фокус), Java 17+, SQL (PostgreSQL)
+- **Основы:** ООП (инкапсуляция, наследование, полиморфизм), основы SOLID, привычки чистой архитектуры
+- **Инструменты:** Git, GitHub, Unity Editor, Rider / Visual Studio, Docker (базово)
+- **Также работала с:** C++ (SFML), Python (TensorFlow / Keras), REST API / Spring Boot (личные проекты), базово TypeScript / JavaScript
 
 ## Разработка игр (Unity 6, URP, C#)
 
@@ -63,9 +44,11 @@
 ## Другие проекты
 
 - **[The Witcher: Chapter 1](https://github.com/top-secret666/the-witcher)** (Java 17, Swing). Хоррор-визуальная новелла в пиксель-арте на собственном небольшом движке с архитектурой MVP (View → Presenter → Director → Domain). Выпущена сборка под Windows со встроенной средой Java ([v1.1.0](https://github.com/top-secret666/the-witcher/releases)).
-- **[Анализ геномных данных](https://github.com/top-secret666/Analiz)** (Python, TensorFlow / Keras). **Победитель научно-технической конференции.** В соавторстве разработала 1D-CNN, которая классифицирует патогенные мутации гена RB1, связанного с риском рака, по данным ClinVar.
+- **[Aroma — платформа доставки еды](https://github.com/top-secret666/food)** (Java 17, Spring Boot 3, Kafka, Keycloak, PostgreSQL, React). Full-stack микросервисное приложение доставки еды с JWT / Google / Keycloak и [живым демо](https://aromafood.vercel.app).
+- **[Tournament Arena](https://github.com/top-secret666/Game_tournament_management)** (Java 17, Spring Boot, JWT, MySQL, Next.js 15). Учебный проект: управление турнирами по League of Legends, REST API и интерфейс на React.
+- **[Анализ геномных данных](https://github.com/top-secret666/Analiz)** (Python, TensorFlow / Keras). **Победитель научно-технической конференции.** В соавторстве разработала 1D-CNN, которая классифицирует патогенные мутации гена RB1 по данным ClinVar.
 - **[Fireboy & Watergirl Multiplayer](https://github.com/top-secret666/fireboy-watergirl-multiplayer)** (C++17, SFML, TCP). Курсовая работа: кооперативный платформер с авторитетным сервером и собственным сетевым протоколом.
-- **[PromptLock Defender](https://github.com/top-secret666/promptlock-defender)** (Python). Конференционный проект: антивирус против программ-вымогателей на основе ИИ, семь модулей обнаружения (сигнатуры, AST-анализ, энтропия, ML-классификатор, мониторинг процессов).
+- **[PromptLock Defender](https://github.com/top-secret666/promptlock-defender)** (Python). Конференционный проект: антивирус против программ-вымогателей на основе ИИ, семь модулей обнаружения.
 
 ## Образование
 
@@ -79,4 +62,4 @@
 
 ## Готовность к работе
 
-Неоплачиваемая стажировка: да · Полная занятость: да · Офис или гибрид
+Неоплачиваемая стажировка: да · Полная занятость: да · Офис или гибрид · Готова работать в Минске
